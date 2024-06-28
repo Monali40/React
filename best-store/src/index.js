@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './Pages/Contact';
 import NotFound from './Pages/NotFound';
 import ProductList from './Pages/admin/products/ProductList';
+import CreateProduct from './Pages/admin/products/CreateProduct';
 function App()
 {
   return(
@@ -15,6 +16,7 @@ function App()
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/admin/products' element={<ProductList />} />
+        <Route path='/admin/products/create' element={<CreateProduct />} />
         <Route path='/*' element={<NotFound />} />
 
     </Routes>

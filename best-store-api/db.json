@@ -2,13 +2,26 @@
   "products": [
     {
       "id": 1,
-      "name": "mona",
-      "price": 80
+      "name": "iphone 15",
+      "brand": "Apple",
+      "category": "Phones",
+      "price": 999,
+      "description": "Acer Swift X SFX14-42G-R607 Creator Laptop | 14\" Full HD 100% sRGB | AMD Ryzen 7 5825U",
+      "imageFilename": "OIP 4.jpg",
+      "createdAt": "2023-07-13T17:46:54.8900000"
     },
     {
       "id": 2,
-      "name": "Karan",
-      "price": 80
+      "name": "Samsung 20",
+      "brand": "Samsung",
+      "category": "Phones",
+      "price": 300,
+      "description": "This is brand new samsung 20",
+      "imageFilename": "OIP3.jpg",
+      "createdAt": "2023-07-13T17:46:54.8900000"
+    },
+    {
+      "id": 3
     }
   ]
 }
