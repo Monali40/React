@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 import NotFound from './Pages/NotFound';
 import ProductList from './Pages/admin/products/ProductList';
 import CreateProduct from './Pages/admin/products/CreateProduct';
+import EditProduct from './Pages/admin/products/EditProduct';
 function App()
 {
   return(
@@ -17,6 +18,7 @@ function App()
         <Route path='/contact' element={<Contact />} />
         <Route path='/admin/products' element={<ProductList />} />
         <Route path='/admin/products/create' element={<CreateProduct />} />
+        <Route path='/admin/products/edit/:id' element={<EditProduct />} />
         <Route path='/*' element={<NotFound />} />
 
     </Routes>
@@ -24,9 +26,6 @@ function App()
      </BrowserRouter>
   )
 }
-
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

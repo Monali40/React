@@ -11,17 +11,37 @@
       "createdAt": "2023-07-13T17:46:54.8900000"
     },
     {
-      "id": 2,
-      "name": "Samsung 20",
-      "brand": "Samsung",
-      "category": "Phones",
-      "price": 300,
-      "description": "This is brand new samsung 20",
-      "imageFilename": "OIP3.jpg",
-      "createdAt": "2023-07-13T17:46:54.8900000"
+      "name": "Iphone 17 ",
+      "brand": "Apple",
+      "category": "phones",
+      "price": "1500",
+      "description": "Iphone 17 new brand ",
+      "imageFilename": "1720716611616_OIP.jpg",
+      "createdAt": "2024-07-11T16:50:11.630Z",
+      "image": "1720716611616_OIP.jpg",
+      "id": 5
     },
     {
-      "id": 3
+      "name": "Iphone 12 pro",
+      "brand": "Apple",
+      "category": "phones",
+      "price": "299.98",
+      "description": "Iphone 12 new brand  ",
+      "imageFilename": "1720718336559_OIP 4.jpg",
+      "createdAt": "2024-07-11T17:18:56.564Z",
+      "image": "1720718336559_OIP 4.jpg",
+      "id": 6
+    },
+    {
+      "name": "iphone 13 pro",
+      "brand": "Apple",
+      "category": "phones",
+      "price": 800,
+      "description": "Iphone 13 pro new brand  ",
+      "imageFilename": "1720901135085_OIP3.jpg",
+      "createdAt": "2024-07-13T20:05:35.088Z",
+      "image": "1720901135085_OIP3.jpg",
+      "id": 7
     }
   ]
 }
